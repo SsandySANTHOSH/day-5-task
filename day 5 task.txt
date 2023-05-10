@@ -1,0 +1,31 @@
+1.json itration for in loop
+      var student={
+      "name":"santhosh",
+      "degree":"bsc",
+      "age":"22",
+      "job":"searching"
+      };
+for(var a in student){
+console.log(student[a]);
+}
+
+2.own resume in json format
+   
+           var student={
+      "name":"SANTHOSH KUMAR",
+      "college name":"Karpagam Instuation of Arts and Science",
+      "degree":"BSC",
+      "branch":"IT",
+      "extra curricular":"nss",
+      "hsc":"Oxford matric hr sec school",
+      "hsc mark":"451",
+      "sslc":"Oxford matric hr sec school",
+      "sslc mark":"384",
+      "age":"22",
+      "birthyear ":"2001",
+      "fathers name":"eswaran",
+      "fathers occupation":"farmer",
+      "mothers name":"shanthi",
+      "mothers occupation":"house wife",
+}
+console.log(student);
